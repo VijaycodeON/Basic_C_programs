@@ -9,9 +9,7 @@ float height;
 double latitude, longitude;
  
     printf("Enter first letter of your name: ");
-       
     scanf("%c",&name_letter);
-
     printf("Enter your Pincode: ");
     scanf("%d", &pincode);
     printf("Enter your height: ");
