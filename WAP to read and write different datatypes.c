@@ -15,16 +15,16 @@ int main()
     double latitude, longitude;
     
     //print message and store i/p character value from user in the variable 
-    //printf("Enter first letter of your name: ");
+    printf("Enter first letter of your name: ");
     scanf("%c", &name_letter);
     //print message and store i/p integer value from user in the variable 
     //printf("Enter your Pinconde: ");
     scanf("%d", &pincode);
     //print message and store i/p float value from user in the variable 
-    //printf("Enter your height in feet: ");
+    printf("Enter your height in feet: ");
     scanf("%f", &height);
     //print message and store i/p double values from user in the variable 
-    //printf("Enter latitude & longitude of your address: ");
+    printf("Enter latitude & longitude of your address: ");
     scanf("%lf%lf", &latitude, &longitude);
     
     //The below lines print the message on the output terminal
@@ -34,7 +34,23 @@ int main()
     printf("Height: %f\n", height);
     printf("Location: %lf %lf\n", latitude, longitude);
     
-    return 0;
-    
-    
+    return 0;   
 }
+
+
+/* ********************** EXAMPLE *******************************
+
+Program execution sample:
+
+Enter first letter of your name: M
+Enter your Pincode: 560001
+Enter your height in feet: 5.8
+Enter latitude & longitude of your address: 12.9757   77.6053
+
+Here is what you have entered:
+First Letter in Name: M
+Pincode: 560001
+Height: 5.8 ft
+Location: 12.9757   77.6053
+
+************************************************************ */
