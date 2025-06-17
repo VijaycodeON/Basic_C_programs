@@ -11,3 +11,9 @@ void main()
     //message "hello world" to be printed in the output terminal
     printf("HELLO WORLD\n");
 }
+
+
+/* *********************** EXAMPLE ***************************
+    Program execution sample:
+> HELLO WORLD
+************************************************************ */
