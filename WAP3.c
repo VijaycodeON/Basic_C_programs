@@ -19,7 +19,7 @@ int main()
     //two values are added and stored in the sum variable.
     sum = num1+num2;
     
-    //sum value is printed on the p/p screen.
+    //sum value is printed on the o/p screen.
     printf("sum = %d\n", sum);
      
     //terminate program
